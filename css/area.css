@@ -42,17 +42,20 @@ body{
     text-align: center;
 }
 
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    position:relative;
+    font-size: 2rem;
+}
 
 @font-face {
     font-family: "ocr a";
-    src: url(font/OCRAEXT.TTF);
+    src: url(/font/OCRAEXT.TTF);
 }
 @font-face {
     font-family: "Courier New";
-    src: url(font/COURBD.TTF);
+    src: url(/font/COURBD.TTF);
 } 
-.pontos{
-    color: red;
-}
+
 
 
