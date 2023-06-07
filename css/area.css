@@ -50,11 +50,11 @@ h1{
 
 @font-face {
     font-family: "ocr a";
-    src: url(font/OCRAEXT.TTF);
+    src: url(OCRAEXT.TTF);
 }
 @font-face {
     font-family: "Courier New";
-    src: url(font/COURBD.TTF);
+    src: url(COURBD.TTF);
 } 
 
 
