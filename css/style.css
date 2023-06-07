@@ -69,7 +69,7 @@ margin-bottom: 1rem;
 }
 @font-face {
     font-family: "ocr a";
-    src: url(OCRAEXT.TTF);
+    src: url('fonts/OCRAEXT.TTF');
 }
 
 .dark #vrli, .dark #resposta {
@@ -101,5 +101,5 @@ h1{
 }
 @font-face {
     font-family: "Courier New";
-    src: url(COURBD.TTF);
+    src: url('fonts/COURBD.TTF');
 }
