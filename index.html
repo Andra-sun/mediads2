@@ -6,22 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/menu.css">
-    <link rel="stylesheet" href="css/dark.css">
+    <link rel="stylesheet" href="css/menu.css" />
+    <link rel="stylesheet" href="css/dark.css" />
   </head>
   <body>
-    <div id="cont">
-      <button id="opco">Menu</button>
-      <ul class="opc">
-        <a href="area.html"><li>area</li></a>
-        <a href="index.html"><li>conversor</li></a>
-      </ul>
-      <span id="titulo1">CONVERSOR</span>
-      <button id="toggle">
-        <span id="l">☾ ☀︎</span>
-        <span id="d">☾ ☀︎</span>
-      </button>
-    </div>
+    <!-- <div > -->
+    <header>
+      <section class="header-menu">
+        <div>
+          <button id="opco">Menu</button>
+          <ul class="opc">
+            <a href="area.html"><li>area</li></a>
+            <a href="index.html"><li>conversor</li></a>
+          </ul>
+        </div>
+        <span id="titulo1">CONVERSOR</span>
+        <button id="toggle">
+          <span id="l">☾ ☀︎</span>
+          <span id="d">☾ ☀︎</span>
+        </button>
+      </section>
+    </header>
 
     <select name="medida1" id="m1" onchange="removeTitulo()">
       <option value="" selected disabled>medida inicial</option>
@@ -59,7 +64,7 @@
     <input type="text" readonly value="resultado" id="resposta" />
     <button id="printar">Calcular</button>
     <h1>made by Andra •ᴗ•</h1>
-    
+
     <script src="js/menu.js"></script>
     <script src="js/dark.js"></script>
     <script src="js/clr.js"></script>
@@ -70,8 +75,8 @@
         select.remove(0);
       }
       function removeTitulo2() {
-        var select2 = document.getElementById('m2');
-        select2.remove(0)
+        var select2 = document.getElementById("m2");
+        select2.remove(0);
       }
     </script>
   </body>

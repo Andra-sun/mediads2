@@ -9,6 +9,7 @@ body {
     flex-direction: column;
     text-align: center;
 }
+
 #m1, #m2 {
 
     width: auto;
@@ -26,9 +27,12 @@ body {
 #m1{
     margin-top: 3rem;
 }
+
+
 #titulo1 {
     font-size: 3rem;
-    margin: 0rem;
+    margin-right: 0.4rem;    
+    margin-left: 0.4rem;    
 }
 
 #para{
