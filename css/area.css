@@ -1,0 +1,58 @@
+body{
+    background-color: #bbfae9;
+    font-family: "ocr a";
+    font-size: 3.4rem;
+    color: #662cfa;
+    transition: 0.6s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#formas{
+    font-family: "ocr a";
+    margin-top: 3rem;
+    height: 3rem;
+    width: 14rem;
+    font-size: 1.6rem;
+    text-align: center;
+    background-color: rgb(167, 167, 255);
+    color: white;
+    border-radius: 0.4rem;
+    appearance: none;
+    -webkit-appearance:none;
+}
+
+#lilname{
+    margin-top: 2rem;
+    font-size: 1.6rem;
+}
+
+#formula{
+    font-family: "ocr a";
+    height: 3rem;
+    width: 15rem;
+    background-color: rgb(173, 173, 255);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+}
+
+
+@font-face {
+    font-family: "ocr a";
+    src: url(font/OCRAEXT.TTF);
+}
+@font-face {
+    font-family: "Courier New";
+    src: url(font/COURBD.TTF);
+} 
+.pontos{
+    color: red;
+}
+
+
