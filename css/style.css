@@ -36,8 +36,11 @@ body {
 }
 
 #para{
+display: block;
 font-size: 3rem;
-margin-bottom: 1rem;
+margin-bottom: 2rem;
+margin-top: 1rem;
+
 }
 
 #vrli, #resposta {
@@ -97,7 +100,9 @@ margin-bottom: 1rem;
 #cont{
     flex-direction: row;
 }
-
+.footer-main2{
+    display: inline;
+}
 h1{
     font-family: 'Courier New', Courier, monospace;
     position:relative;
