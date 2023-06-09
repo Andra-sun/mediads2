@@ -114,7 +114,7 @@ btnCalcular.addEventListener("click", function () {
         } else if (medida1 === "mm" && medida2 === "dm") {
             resultado = valor / 100;
         } else if (medida1 === "mm" && medida2 === "cm") {
-            resultado = valor / 100;
+            resultado = valor / 10;
         }
 
         if (medida1 === medida2) {
