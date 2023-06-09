@@ -9,6 +9,7 @@ body {
     flex-direction: column;
     text-align: center;
 }
+
 #m1, #m2 {
 
     width: auto;
@@ -26,14 +27,20 @@ body {
 #m1{
     margin-top: 3rem;
 }
+
+
 #titulo1 {
     font-size: 3rem;
-    margin: 0rem;
+    margin-right: 0.4rem;    
+    margin-left: 0.4rem;    
 }
 
 #para{
+display: block;
 font-size: 3rem;
-margin-bottom: 1rem;
+margin-bottom: 2rem;
+margin-top: 1rem;
+
 }
 
 #vrli, #resposta {
@@ -93,7 +100,9 @@ margin-bottom: 1rem;
 #cont{
     flex-direction: row;
 }
-
+.footer-main2{
+    display: inline;
+}
 h1{
     font-family: 'Courier New', Courier, monospace;
     position:relative;
